@@ -8,7 +8,7 @@ const Tutorials = () => {
       <section id="tutorials" />
       <div>
         <Title text="Tutorials" />
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-4">
           {tutorials.map((tutorial, index) => {
             return (
               <div key={index} className="">
