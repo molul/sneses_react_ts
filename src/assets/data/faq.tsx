@@ -10,16 +10,12 @@ export const faq = [
         browsing.
         <br />
         <br />
-        Blast16 is not meant to hold all Mega Drive/32X/Sega CD/Master
+        SNESES is not meant to hold all Mega Drive/32X/Sega CD/Master
         System/Game Gear games, but to help people create a Mega Drive mini out
         of a Raspberry Pi, and like any mini console, it's designed to have just
         the right amount of games.
       </>
     ),
-  },
-  {
-    q: "Will you make separate game menus per console?",
-    a: "No. Blast16 is conceptually a way to turn your Raspberry Pi into a Mega Drive Mini. The other systems are just a bonus. Since version 1.0.9, games are sorted by system and then alphabetically, and by pressing Down you can move to the next system's first game.",
   },
   {
     q: "Can background music be changed?",
@@ -37,11 +33,11 @@ export const faq = [
         <br />
         1- Connect an USB drive to your Raspberry.
         <br />
-        2- In Blast16, go to Options-Tools-Backup and press A, then confirm.
-        Wait for the backup to finish.
+        2- In SNESES, go to Options-Tools-Backup and press A, then confirm. Wait
+        for the backup to finish.
         <br />
         3- Connect the USB drive to your computer to make sure the backup was
-        made (there should be a directory named “blast16_backup”).
+        made (there should be a directory named “sneses_backup”).
         <br />
         4- Turn your Raspberry Pi off.
         <br />
@@ -65,7 +61,7 @@ export const faq = [
   },
   {
     q: "My gamepad is detected but some buttons are not.",
-    a: "Blast16 is compatible with Direct-Input (D-Input) controllers only, so you need to check if your controller has this connection mode. For instance, Retroflag Mega Drive controllers are set as D-input by pressing “Y” before connecting to the USB port (you only need to do that once), and 8bitdo usually turn on on D-input mode by pressing B+Start.",
+    a: "SNESES is compatible with Direct-Input (D-Input) controllers only, so you need to check if your controller has this connection mode. For instance, Retroflag Mega Drive controllers are set as D-input by pressing “Y” before connecting to the USB port (you only need to do that once), and 8bitdo usually turn on on D-input mode by pressing B+Start.",
   },
   {
     q: "Can I enable WiFi?",
@@ -97,25 +93,21 @@ export const faq = [
         <br />
         6- Turn the Raspberry pi on.
         <br />
-        7- When you see Blast16 logo, you can turn the controller on (remember
-        to do it in D-input mode) and hold the pairing button until it's on
-        pairing mode.
+        7- When you see SNESES logo, you can turn the controller on (remember to
+        do it in D-input mode) and hold the pairing button until it's on pairing
+        mode.
       </>
     ),
   },
   {
     q: "Can I use a keyboard?",
-    a: "Blast16 can be controlled with a keyboard, but for playing games you'll need a controller.",
+    a: "SNESES can be controlled with a keyboard, but for playing games you'll need a controller.",
   },
   {
     q: "What’s the name of the background music and who wrote it?",
     a: (
       <>
-        It's called{" "}
-        <a href="https://www.youtube.com/watch?v=APVrb9lugqQ" target="_blank">
-          “The management song”
-        </a>{" "}
-        and it's written by{" "}
+        It's written by{" "}
         <a
           href="https://www.youtube.com/channel/UCgRtag7c4icCymC95QC1NHQ"
           target="_blank"
@@ -128,6 +120,6 @@ export const faq = [
   },
   {
     q: "I copied games and boxarts through FTP and my boxarts are still big.",
-    a: "Since version 1.0.12, the auto-resize script only works if you copy the games through USB. You have to go to Tools-Resize boxarts and press A.",
+    a: "The auto-resize script only works if you copy the games through USB. You have to go to Tools-Resize boxarts and press A.",
   },
 ];

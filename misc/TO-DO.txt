@@ -1,9 +1,2 @@
-Falta el scroll to Home
-
-Hacer el mismo cambio en el footer que voy a hacer en Blast16
-
-Cambiar features
-
-Cambiar FAQ
 
 Cambiar Downloads

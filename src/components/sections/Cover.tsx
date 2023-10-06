@@ -14,7 +14,7 @@ const Cover = () => {
   };
 
   return (
-    <section>
+    <section id="home">
       <div className="space-y-4">
         <div className="">
           <strong>SNESES</strong> (Super Nintendo Entertainment System Emulation
