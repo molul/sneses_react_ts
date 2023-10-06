@@ -17,8 +17,17 @@ const Cover = () => {
     <section>
       <div className="space-y-4">
         <div className="">
-          <strong>Blast 16</strong> is an emulator frontend for Raspberry Pi
-          inspired on the Sega Mega Drive/Genesis, and developed with{" "}
+          <strong>SNESES</strong> (Super Nintendo Entertainment System Emulation
+          System) is an emulator frontend for Raspberry Pi inspired on the Super
+          Nintendo, and built from{" "}
+          <a
+            href="https://blast16.tripware.es/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blast16
+          </a>{" "}
+          with{" "}
           <a
             href="https://love2d.org/"
             target="_blank"
@@ -29,7 +38,7 @@ const Cover = () => {
           &nbsp;framework.
         </div>
         <YouTube
-          videoId="MKcvY2zXHGg"
+          videoId="zjkn05lvmmE"
           opts={opts}
           onReady={onPlayerReady}
           className={"youtubeContainer"}

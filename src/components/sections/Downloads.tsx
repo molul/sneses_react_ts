@@ -10,7 +10,7 @@ const Downloads = () => {
         <Title text="Downloads" />
         <div className="text-center mb-16">
           <div className="mb-4">
-            If you would like to support Blast16 development with a donation,
+            If you would like to support SNESES development with a donation,
             please click here:
           </div>
           <DonateButton />

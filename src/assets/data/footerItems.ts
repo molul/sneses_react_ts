@@ -13,8 +13,8 @@ export const footerItems = [
   },
   {
     type: "text",
-    text: "SNESES",
-    url: "http://sneses.tripware.es/",
+    text: "Blast16",
+    url: "http://blast16.tripware.es/",
     target: "_blank",
   },
 ];

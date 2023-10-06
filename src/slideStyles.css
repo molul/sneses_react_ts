@@ -87,7 +87,7 @@
   height: 7px;
   border-radius: 50%;
   content: "";
-  background: #00dbef;
+  background: #ff4444;
   text-align: center;
 }
 .react-slideshow-container + ul.indicators .each-slideshow-indicator:hover,

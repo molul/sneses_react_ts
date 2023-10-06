@@ -7,9 +7,9 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#00dbef",
-        primaryHover: "#2bb3bf",
-        secondary: "#b353c3",
+        primary: "#ff4444",
+        primaryHover: "#ffaaaa",
+        secondary: "#ff0000",
       },
     },
   },
