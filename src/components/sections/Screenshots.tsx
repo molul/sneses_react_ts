@@ -30,7 +30,7 @@ const properties = {
   indicators: true,
 };
 
-const numbersList = Array.from(Array(9).keys());
+const numbersList = Array.from(Array(7).keys());
 
 const slideImages = numbersList.map(
   (num) => "/img/screenshots/" + (num + 1) + ".webp"
