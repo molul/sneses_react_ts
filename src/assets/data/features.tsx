@@ -26,7 +26,7 @@ export const features = {
         href="https://www.youtube.com/channel/UCgRtag7c4icCymC95QC1NHQ"
         target="_blank"
       >
-        Loop & Pixel
+        Loop & Pixel.
       </a>
     </>,
     <>
