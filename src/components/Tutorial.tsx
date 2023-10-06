@@ -21,7 +21,7 @@ const Tutorial = ({ language, data }: Props) => {
         {language}
       </div>
       <div className="break-words ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           {data.map((item, index) => {
             return (
               <div key={index} className="flex space-x-3 items-center">
