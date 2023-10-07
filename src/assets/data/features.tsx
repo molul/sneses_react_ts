@@ -11,7 +11,7 @@ export const features = {
       </a>
       ).
     </>,
-    "Zip and 7z ROM formats are also supported.",
+    
     "Fast boot (~15 seconds).",
     "Do everything from the frontend with a controller. ",
     "Create your favourite games list.",
