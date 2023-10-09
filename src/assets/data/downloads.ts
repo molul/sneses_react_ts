@@ -7,20 +7,9 @@ export const downloads = [
     files: [
       {
         name: "SD Card Image",
-        description: "Download this if you haven't installed SNESES yet",
         icon: "zip",
         size: "1.22GB",
         url: snesesPath + "releases/sneses_release-1.0.7-20200122.zip",
-      },
-      {
-        name: "USB Update",
-        description:
-          "Download this if you already have Blast16 1.0.17 or lower",
-        icon: "zip",
-        size: "15MB",
-        url:
-          snesesPath +
-          "releases/sneses_release-1.0.7-20200122 (USB update).zip",
       },
     ],
   },
