@@ -1,5 +1,7 @@
 import { features } from "../../assets/data/features";
 import Title from "../Title";
+import { AiFillCheckSquare } from "react-icons/ai";
+
 
 const KeyFeatures = () => {
   return (
@@ -9,8 +11,14 @@ const KeyFeatures = () => {
       <div className=" break-words bg-black bg-opacity-50 p-4 rounded-lg">
         <div className="space-y-2">
           {features.key.map((feat, index) => (
-            <div key={index} className="py-2">
-              {feat}
+            <div key={index} className="flex  justify-start py-2">
+  <div>
+<AiFillCheckSquare/>
+</div>
+<div>
+{feat}
+</div>
+              
             </div>
           ))}
         </div>
