@@ -11,8 +11,8 @@ const KeyFeatures = () => {
       <div className=" break-words bg-black bg-opacity-50 p-4 rounded-lg">
         <div className="space-y-2">
           {features.key.map((feat, index) => (
-            <div key={index} className="flex  justify-start items-start gap-4 py-2">
-  <div>
+            <div key={index} className="flex  justify-start items-start gap-3 py-2">
+  <div className="pt-1">
 <AiFillCheckSquare/>
 </div>
 <div>
