@@ -1,4 +1,5 @@
 import { faq } from "../../assets/data/faq";
+import FAQItem from "../FAQItem";
 import Title from "../Title";
 
 const FAQ = () => {
@@ -8,14 +9,13 @@ const FAQ = () => {
 
       <Title text="FAQ" />
 
-      <div className="break-words space-y-6">
+      <div className="break-words space-y-4">
         {faq.map((item, index) => (
           <div
             key={index}
             className="bg-black bg-opacity-50 p-4 rounded-lg space-y-2"
           >
-            <div className="font-bold border-b pb-2 ">Q: {item.q}</div>
-            <div>A: {item.a}</div>
+            <FAQItem q={item.q} a={item.a} />
           </div>
         ))}
       </div>
