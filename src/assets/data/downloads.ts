@@ -1,4 +1,4 @@
-const basePath = "http://tripware.es/wp-content/uploads/";
+const basePath = "https://tripware.es/wp-content/uploads/";
 const snesesPath = basePath + "sneses/";
 
 export const downloads = [
