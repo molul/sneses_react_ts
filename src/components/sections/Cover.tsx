@@ -1,18 +1,7 @@
-import YouTube, { YouTubeProps } from "react-youtube";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Cover = () => {
-  const onPlayerReady: YouTubeProps["onReady"] = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  };
-
-  const opts: YouTubeProps["opts"] = {
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 0,
-    },
-  };
-
   return (
     <section id="home">
       <div className="space-y-4">
@@ -37,11 +26,11 @@ const Cover = () => {
           </a>
           &nbsp;framework.
         </div>
-        <YouTube
-          videoId="zjkn05lvmmE"
-          opts={opts}
-          onReady={onPlayerReady}
-          className={"youtubeContainer"}
+        <LiteYouTubeEmbed
+          id="zjkn05lvmmE"
+          adNetwork={true}
+          poster="maxresdefault"
+          title="SNESES"
         />
       </div>
     </section>
