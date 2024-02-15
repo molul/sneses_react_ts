@@ -11,6 +11,14 @@ export const downloads = [
         size: "1.22GB",
         url: snesesPath + "releases/sneses_release-1.0.7-20200122.zip",
       },
+      {
+        name: "Fix for newest RPi 3B+ models",
+        description:
+          "If you have a new RPi 3B+ model and SNESES doesn't launch, download this file and follow the README.txt inside. A new SNESES version will be eventually uploaded to automate this process",
+        icon: "zip",
+        size: "12.8MB",
+        url: "files/fix_sneses.zip",
+      },
     ],
   },
   {
